@@ -21,13 +21,14 @@ header{
     justify-content: center;
     align-items: center;
     padding-left: 90px ;
-
+    /* position: relative; */
 }
 .logo-image{
     width: 116px;
+    /* position: absolute; */
 }
 .navigation{
-    
+    /* position: absolute; */
     font-size: 14.5px;
     color: rgb(23, 43, 77);
     text-decoration-line: none;
@@ -39,26 +40,33 @@ header{
 }
 .right-header{
     margin-right: 70px;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .login-link{
     font-size: 19px;
     text-decoration: none;
     color: rgb(23, 43, 77);
-    margin-right: 20px;
+    position: fixed;
+    right: 285px;
 }
 .get-button{
     background-color: rgb(0, 101, 255);
     color: white;
     font-size: 18px;
     font-weight: 400;
-    padding: 19px 25px;
+    padding: 18.5px 26px;
     border: none;
     margin-right: 5px;
-
+    position: fixed;
+    top: 0px;
+    right: 70px;
 }
 
 .get-button:hover{
     background-color: rgb(30, 56, 100);;
 }
+

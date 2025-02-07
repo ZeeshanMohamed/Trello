@@ -14,7 +14,7 @@ header{
     background-color: white; /* To make header sticks on top while scrolling */
     border-bottom: 1px solid rgb(228, 228, 228);
     margin-top: 0px;
-}
+    box-shadow: 2px 2px 9px rgba(9, 30, 66, 0.15);}
 
 .left-header{
     display: flex;

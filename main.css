@@ -6,9 +6,13 @@
     align-items: center;
     font-size: 15.5px;
     font-weight: 400;
-    position: relative;
     padding: 17px 216px;
     margin-top: 55px;
+
+}
+
+.notification p{
+    text-align: center;
 }
 
 .learn-more{
@@ -112,8 +116,8 @@
 
 .right-image{
     display: flex;
-        height: 510px;
-        width: 560px;
+    height: 510px;
+    width: 560px;
         margin-top: 110px;
         margin-left: 30px;
         justify-content: center;

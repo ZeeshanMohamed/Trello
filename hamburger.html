@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navbar Style */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0176d3;
+    padding: 10px 20px;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #ffdd57;
+  }
+  
+  /* Hamburger Icon (Hidden by Default) */
+  .menu-icon {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+  }
+  
+  /* Hide Checkbox */
+  #menu-toggle {
+    display: none;
+  }
+  
+  /*  Responsive Design for Small Screens */
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;                /* Hide nav links */
+      flex-direction: column;
+      background-color: #0176d3;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      width: 200px;
+      padding: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+      border-radius: 0 0 10px 10px;
+    }
+  
+    /* Show links when checkbox is checked */
+    #menu-toggle:checked + .menu-icon + .nav-links {
+      display: flex;
+    }
+  
+    /* Show the hamburger icon */
+    .menu-icon {
+      display: block;
+    }
+  }
+  
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">MyLogo</div>
+        
+        <!-- Hamburger Icon -->
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+      
+        <!-- Navigation Links -->
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+</body>
+</html>

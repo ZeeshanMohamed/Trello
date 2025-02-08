@@ -32,13 +32,14 @@
     .main-1{
         display: grid;
         grid-template-columns: 1fr;;
-        height: 100%;
-        width: 470px;
+        height: 80%;
+        width: 450px;
     }
     .left-1{
         text-align: center;
         margin: 140px 0px 0px;
-        margin-left: 53px;
+        margin-left: 44px;
+        
         display: flex;
         justify-content: center;
         align-items: center;
@@ -50,7 +51,7 @@
         margin: 20px;
         text-align: center;
         margin: 10px 0px 0px;
-        margin-left: 53px;
+        margin-left: 44px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -65,7 +66,7 @@
     .signup-button{
         padding: 11px 16px;
         margin-top: 20px;
-        margin-left: 55px;
+        margin-left: 44px;
     }
 
     .video-link{
@@ -88,12 +89,13 @@
 
     }
     .right-image{
-        height: 508px;
-        width: 440px;
+        height: 400px;
+        width: 428px;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 0px;
+        margin-top: 20px;
+        margin-left: 20px;
     }
 
 

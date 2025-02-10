@@ -231,13 +231,13 @@
     }
 
     .grid-column-1 h2{
-        margin-left: 70px;
+        margin-left: 65px;
         margin-top: 0px;
         font-size: 18px;
     }
 
     .grid-column-1 p{
-        margin-left: 70px;
+        margin-left: 65px;
         font-size: 14px;
         font-weight: normal;
 
@@ -245,7 +245,7 @@
 
     .grid-column-1 button{
         width: 200px;
-        margin-left: 150px;
+        margin-left: 145px;
         font-size: 14px;
     }
 
@@ -255,7 +255,7 @@
     
     .grid-column-2{
         display: block;
-        margin-left: 40px;
+        margin-left: 33px;
         height: 400px;
         width: 350px
     }

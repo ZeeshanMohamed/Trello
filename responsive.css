@@ -123,25 +123,34 @@
     }
 
     .main-para{
-        font-size: 17px;
+        font-size: 16px;
         margin-left: 44px;
-        width: 400px;
+        width: 290px;
+        line-height: 24px; 
     }
     .main-para-link{
         font-size: 17px;
         display: flex;
     }
     .main-2-image{
-        margin-left: -350px;
-        margin-top: -40px;
-        height: 250px;
-        width: 400px;
+        margin-top: -10px;
+        margin-left: -200px;
+        height: 220px;
+        width: 340px;
     }
     .main-2-right{
         margin-right: 10px;
         
     }
 
+    .main-2-left{
+        margin-left: -150px;
+        margin-top: 150px;
+    }
+
+    #main-2-a, #main-2-b{
+        display: none;
+    }
 
 
 

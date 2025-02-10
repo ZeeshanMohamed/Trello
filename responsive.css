@@ -27,7 +27,8 @@
         padding-left: 0px;
     }
     .notification p{
-        font-size: 10px;
+        font-size: 12px;
+        line-height: 20px;
        
     }
 
@@ -39,7 +40,7 @@
     }
     .left-1{
         text-align: center;
-        margin: 140px 0px 0px;
+        margin: 80px 0px 0px;
         margin-left: 75px;
         
         display: flex;

@@ -38,7 +38,7 @@
     .left-1{
         text-align: center;
         margin: 140px 0px 0px;
-        margin-left: 44px;
+        margin-left: 75px;
         
         display: flex;
         justify-content: center;
@@ -51,7 +51,7 @@
         margin: 20px;
         text-align: center;
         margin: 10px 0px 0px;
-        margin-left: 44px;
+        margin-left: 75px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -66,21 +66,21 @@
     .signup-button{
         padding: 11px 16px;
         margin-top: 20px;
-        margin-left: 44px;
+        margin-left: 75px;
     }
 
     .video-link{
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 30px;
+        margin-left: 61px;
         font-size: 15px;
     }
     .play-video{
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 260px;
+        margin-left: 291px;
 
     }
 
@@ -95,7 +95,7 @@
         justify-content: center;
         align-items: center;
         margin-top: 20px;
-        margin-left: 0px;
+        margin-left: 35px;
     }
 
     /* ----------------------------- */
@@ -114,17 +114,17 @@
     }
 
     .main-sub{
-        margin-left: 44px;
+        margin-left: 75px;
     }
 
     .main-head{
-        margin-left: 44px;
+        margin-left: 75px;
         font-size: 24px;
     }
 
     .main-para{
         font-size: 16px;
-        margin-left: 44px;
+        margin-left: 75px;
         width: 290px;
         line-height: 24px; 
     }
@@ -138,7 +138,7 @@
     }
     .main-2-2-responsive{
         display: block;
-        margin-left: 44px;
+        margin-left: 75px;
     }
     .main-2-image-responsive{
 
@@ -166,7 +166,8 @@
     }
     .main-2-row-responsive p{
         line-height: 20px;
-        margin-left: 5px;   
+        margin-left: 5px; 
+          
     }
 
     .main-3{
@@ -175,16 +176,16 @@
 
     .main-sub-3{
         font-size: 16px;
-        margin-left: 44px;
+        margin-left: 75px;
     }
     
     .main-head-3{
         font-size: 24px;
-        margin-left: 44px;
+        margin-left: 75px;
     }
 
     .blocks-3{
-        margin-left: 44px;
+        margin-left: 75px;
         margin-top: 20px;
         padding-bottom: 10px;
         height: 200px;
@@ -199,18 +200,19 @@
     }
 
     .main-3-bottom{
-        margin-left: 44px;
+        margin-left: 75px;
         padding: 0px;
         display: inline;
     }
 
     .main-3-bottom p{
-        margin-left: 46px;
+        margin-left: 77px;
         font-size: 14px;
         line-height: 24px;
+        padding-right: 0px;
     }
     .main-3-bottom button{
-        margin-left: 46px;
+        margin-left: 77px;
         font-size: 14px;
         margin-top: 20px;
     }

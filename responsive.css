@@ -224,6 +224,7 @@
         width: 500px;
         height: 810px;
         padding-bottom: 360px;
+       
     }
 
 
@@ -301,6 +302,7 @@
 /* ------------------------------------- */
         .main-5{
             width: 500px;
+            margin-top: -90px;
         }
 
         .main-5-grid{
@@ -310,7 +312,7 @@
         .main-5-box{
             display: block;
             margin-left: 50px;
-            width: 400px;
+            width: 405px;
             
         
             
@@ -350,8 +352,9 @@
         }
         
         .main-5-box-flex2{
-            width: 335px;
+            width: 341px;
             border-top-right-radius: 0px;
+            border-bottom-left-radius: 10px;
         }
 
         .main-5-box-flex2 h3{

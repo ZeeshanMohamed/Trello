@@ -22,10 +22,12 @@
     }
 
     .notification{
-        display: none;
+        width: 500px;
+        padding-right: 0px;
+        padding-left: 0px;
     }
     .notification p{
-        position: relative;
+        font-size: 10px;
        
     }
 

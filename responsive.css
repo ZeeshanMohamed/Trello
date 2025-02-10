@@ -222,7 +222,8 @@
 
     .main-4{
         width: 500px;
-        /* height: 470px; */
+        height: 810px;
+        padding-bottom: 360px;
     }
 
 
@@ -259,7 +260,7 @@
         height: 400px;
         width: 350px
     }
-
+    
     .grid-column-2 img{
         width: 380px;
         margin-left: -15px;
@@ -272,13 +273,33 @@
         }
         
         .grid-column-3{
-           display: none;
+            margin-top: 125px;
+            display: block;
         }
 
         
+        
+        
+        .grid-column-3{
+            display: block;
+            margin-left: 33px;
+            height: 400px;
+            width: 350px;
+            padding-bottom: 50px;
+        }
 
-
-
+        
+        
+        .grid-column-3 img{
+            width: 380px;
+            margin-left: -15px;
+            height: 200px;
+        }
+    
+        .grid-column-3-left{
+            margin-left: -15px;
+            margin-top: -30px;
+        }
 
 
 

@@ -166,7 +166,9 @@
     color: rgb(0, 101, 255);
 }
 
-
+.main-2-2-responsive{
+    display: none;
+}
 .main-2-2{
     margin-top: 30px;
     display: flex; 

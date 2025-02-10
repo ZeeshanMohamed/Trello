@@ -157,6 +157,7 @@
     border-left:10px solid rgb(0, 101, 255) ;
     padding: 15px 87px 0px 0px;
     box-shadow: 2px 2px 9px rgba(9, 30, 66, 0.15);
+    margin-bottom: 20px;
 }
     }
     .main-2-row-responsive h4{
@@ -165,8 +166,53 @@
     }
     .main-2-row-responsive p{
         line-height: 20px;
-        margin-left: 5px;
+        margin-left: 5px;   
+    }
+
+    .main-3{
         
+    }
+
+    .main-sub-3{
+        font-size: 16px;
+        margin-left: 44px;
+    }
+    
+    .main-head-3{
+        font-size: 24px;
+        margin-left: 44px;
+    }
+
+    .blocks-3{
+        margin-left: 44px;
+        margin-top: 20px;
+        padding-bottom: 10px;
+        height: 200px;
+    }
+
+    .box-3-main{
+        font-size: 14px;
+        padding-top: 20px;
+    }
+    .box-3-2, .box-3-3{
+        display: none;
+    }
+
+    .main-3-bottom{
+        margin-left: 44px;
+        padding: 0px;
+        display: inline;
+    }
+
+    .main-3-bottom p{
+        margin-left: 46px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .main-3-bottom button{
+        margin-left: 46px;
+        font-size: 14px;
+        margin-top: 20px;
     }
 
 
@@ -180,11 +226,7 @@
 
 
 
-
-
-
-
-    .main-3, .main-4, .main-5, .main-6, .main-7, footer{
+     .main-4, .main-5, .main-6, .main-7, footer{
         display: none;
     }
 

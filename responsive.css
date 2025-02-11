@@ -17,6 +17,13 @@
         display: none;
     }
 
+    .nav{
+        display: flex;
+        gap: 20px;
+      }  
+
+
+
     #menu-toggle:checked + .menu-icon  + .nav{
         display: flex;
       }
@@ -24,6 +31,7 @@
       /* Show the hamburger icon */
       .menu-icon {
         display: block;
+        justify-self: end;
       }
 
     .right-header{
@@ -383,8 +391,9 @@
    
     
   } 
-  .main-6-box{
-
+  .main-6-grid{
+    display: grid;
+    grid-template-columns: 0px 0px 0px 0px;
   }
 
   .empty-div{
@@ -416,7 +425,7 @@
     .price-container{
       width: 401px;
     display: grid;
-    grid-template-rows: 250px 300px 350px 350px;
+    grid-template-rows: 250px 300px 320px 300px;
     margin-left: -300px;
     row-gap: 20px;
     border: none;
@@ -430,18 +439,21 @@
     padding-right: 25px;
     border: 1px solid gray;
     background-color: white;
+    margin-left: 170px;
 } 
 .price-2{
     /* background-color: brown; */
     border: 1px solid gray;
     padding-right: 25px;
     background-color: white;
+    margin-left: 170px;
 } 
 
 .price-3{
     /* background-color: blueviolet; */
     padding-right: 25px;
     background-color: white;
+    margin-left: 170px;
 }
 
 .price-4{
@@ -449,6 +461,7 @@
     padding-right: 25px;
     border: 1px solid gray;
     background-color: white;
+    margin-left: 170px;
 }
   
 .price-1 h3, .price-2 h3, 
@@ -491,7 +504,7 @@
 }
 
 .more{
-   color: black;
+   
 }
 
   .partners, .join, .main-7, footer{

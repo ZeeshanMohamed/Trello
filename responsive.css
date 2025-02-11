@@ -17,6 +17,15 @@
         display: none;
     }
 
+    #menu-toggle:checked + .menu-icon  + .nav{
+        display: flex;
+      }
+    
+      /* Show the hamburger icon */
+      .menu-icon {
+        display: block;
+      }
+
     .right-header{
         display: none;
     }
@@ -378,47 +387,68 @@
 
   }
 
+  .empty-div{
+    width: 0px;
+  }
+
+  .main-6-box-flex1{
+    width: 0px;
+}
   .main-6-box-flex1 h2{
-        margin-left: -290px;
+        text-align: center;
+        margin-left: -100px;
         font-size: 24px;
-        margin-top: -35px
-
-  }
-
-  .main-6-p{
-    margin-left: -290px;
-  }
-  
-  .main-6-box-flex1 a{
-    margin-left: -590px;
+        margin-top: -35px;
+        
+    }
+    
+    .main-6-p{
+        text-align: center;
+        margin-left: -100px;
   }
   
-  .price-container{
+  .plan-link{
+    display: block;
+     width: 120px;
+   
+    }
+    
+    .price-container{
+      width: 401px;
     display: grid;
-    grid-template-rows: 200px 200px 200px 200px;
+    grid-template-rows: 250px 300px 350px 350px;
     margin-left: -300px;
     row-gap: 20px;
+    border: none;
+    background:linear-gradient(rgb(230, 252, 255), rgb(255, 255, 255)) 0% 0% / auto no-repeat scroll padding-box border-box transparent;
 }
 
 
 
 .price-1{
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     padding-right: 25px;
+    border: 1px solid gray;
+    background-color: white;
 } 
 .price-2{
-    background-color: brown;
+    /* background-color: brown; */
+    border: 1px solid gray;
     padding-right: 25px;
+    background-color: white;
 } 
 
 .price-3{
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     padding-right: 25px;
+    background-color: white;
 }
 
 .price-4{
-    background-color: sandybrown;
+    /* background-color: sandybrown; */
     padding-right: 25px;
+    border: 1px solid gray;
+    background-color: white;
 }
   
 .price-1 h3, .price-2 h3, 
@@ -428,18 +458,43 @@
 
 .mrp{
     padding-top: 20px;
+    font-size: 28px;
 }
 
 .plan{
-    margin-left: 10px;
+    margin-left: 0px;
+    margin-top: 7px;
+    margin-bottom: 20px;
 }
 
 .desc{
     padding-top: 0px;
-    padding-bottom: 0px;
+    font-size: 14px;
+    
 }
 
-  .class, .join, .main-7, footer{
+#price-1-desc{
+    margin-bottom: -60px;
+
+}
+
+#price-2-desc{
+    margin-bottom: -65px;
+}
+#desc-3, #desc-4{
+    margin-bottom: -65px;
+}
+
+.link{
+ width: 123px; 
+ font-size: 14px;
+}
+
+.more{
+   color: black;
+}
+
+  .partners, .join, .main-7, footer{
 display: none;
     }
 }

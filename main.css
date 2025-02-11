@@ -842,6 +842,10 @@ footer{
     padding: 16px;
 }
 
+.hr-responsive{
+    display: none;
+}
+
 .section-2 img{
     margin-top: 10px;
     height: 45px;

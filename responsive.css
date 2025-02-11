@@ -622,6 +622,7 @@ footer{
     margin-bottom: -17px;
 }
 .hr-responsive{
+    display: block;
     margin-top: 30px;
     
 }
@@ -651,12 +652,33 @@ footer{
 }
 .footer-right{
     /* display: block; */
+    width: 12px;
     
 }
-.instagram, .facebook, .twitter, .linkedin, .youtube{ 
+.instagram{ 
     margin-left: 75px;
+    margin-top: 30px;
+    margin-right: 10px;
+    padding: 5px 5px 5px 8px;
+    /* display: block; */
+    /* flex-direction: row; */
+}
+.facebook, .twitter, .linkedin, .youtube{ 
+    margin-left: 0px;
     width: 12px;
     margin-top: 30px;
-    display: block;
+    margin-right: 10px;
+    /* display: flex; */
+    /* flex-direction: row; */
+}
+
+.fa-instagram, .fa-facebook-f, .fa-linkedin-in, .fa-twitter{
+    /* padding-left: 3px; */
+    width: 13px;
+}
+
+.fa-youtube{
+    width: 13px;
+    padding-left: -2px;
 }
 }

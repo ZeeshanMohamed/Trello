@@ -80,7 +80,7 @@
         line-height: 20px;
     }
 
-    .signup-input{
+    #top-signup-input{
         display: none;
     }
 
@@ -527,10 +527,52 @@
         width: 383px;
   }  
   
- 
-.main-7, footer{
-display: none;
-    }
+ /* --------------------------------------------- */
+.main-7{
+    width: 500px;
+    height: 150px;
+    position: relative;
+    top: 620px;
 }
 
+.main-7-left, .main-7-right{
+    display: none;
+}
 
+.main-7-middle{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.main-7-middle h2{
+    margin-top: 20px;
+    font-size: 24px;
+    margin-left: 70px;
+}
+
+.main-7-contact{
+    width: 500px;
+}
+
+#bottom-signup-input{
+    width: 100px;
+    margin-left: 0px;
+    display: inline-block;
+}
+#bottom-signup-button{
+    width: 150px;
+    padding: 15px;
+    margin-left: 0px;
+}
+
+/* ---------------------------------------------------------------------------- */
+
+
+footer{
+    position: relative;
+    top: 620px;
+    display: none;
+}
+
+}
